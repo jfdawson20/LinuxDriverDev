@@ -12,6 +12,8 @@ void rtl8139_cleanup (void);
 #define REALTEK_VENDER_ID  0x10EC
 #define REALTEK_DEVICE_ID   0x8139
 
+#define DRIVER "8139-jack-driver"
+
 #define TX_BUF_SIZE  1536  /* should be at least MTU + 14 + 4 */
 #define TOTAL_TX_BUF_SIZE  (TX_BUF_SIZE * NUM_TX_SIZE)
 
